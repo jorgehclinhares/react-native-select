@@ -219,7 +219,7 @@ export const DropdownSelect = ({
                   <TouchableOpacity onPress={() => {}}>
                     <CheckBox
                       value={selectAll}
-                      label={selectAll ? 'Clear all' : 'Select all'}
+                      label={selectAll ? 'Limpar seleção' : 'Selecionar todos'}
                       onChange={() => handleSelectAll()}
                       primaryColor={primary}
                       checkboxSize={checkboxSize}
